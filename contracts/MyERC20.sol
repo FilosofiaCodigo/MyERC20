@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.0;
 
-import "./ERC20.sol";
+import "./dependencies/ERC20.sol";
 
 contract MyERC20 is ERC20 {
   address public owner;
